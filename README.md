@@ -50,6 +50,6 @@ Boom. You’re done.
 
 ## Need Help?
 
-- Check the SUBMISSION_GUIDELINES.md for detailed steps
+- Check the [SUBMISSION_GUIDELINES.md](./SUBMISSION_GUIDELINES.md) for detailed steps
 - Having issues with GitHub? Reach out on our Discord or Telegram — someone will help you out
 - Missed a day? Don’t worry — just jump in whenever you can
