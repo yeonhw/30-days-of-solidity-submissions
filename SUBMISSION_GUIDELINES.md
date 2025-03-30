@@ -1,3 +1,5 @@
+# **SUBMISSION GUIDELINES**
+
 Follow these steps to submit your code for any day of the 30 Days of Solidity challenge:
 
 ---
