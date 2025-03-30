@@ -1,3 +1,4 @@
+
 # 30 Days of Solidity — Community Submissions
 
 Welcome to the official submissions repo for 30 Days of Solidity!
@@ -21,14 +22,13 @@ Inside the `submissions` folder, everyone can create their **own folder named af
 
 Example:
 
-Day03/
-├── challenge.md
-└── submissions/
-    ├── dev-sethu/
-    │   └── MyToken.sol
-    ├── alice-dev/
-    │   └── MyToken.sol
-
+    Day03/
+    ├── challenge.md
+    └── submissions/
+        ├── dev-sethu/
+        │   └── MyToken.sol
+        └── alice-dev/
+            └── MyToken.sol
 
 ---
 
