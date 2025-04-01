@@ -23,14 +23,20 @@ Example:
 ```
 submissions/
     └── dev-sethu/
-        └── day1-contract.sol
-        └── day2-contract.sol
-
 ```
 
 **4. Add your code**
 
 Drop your `.sol` file (or multiple files if needed) into your folder.
+Example:
+
+```
+submissions/
+    └── dev-sethu/
+        └── day1-contract.sol
+        └── day2-contract.sol
+
+```
 
 **5. Commit and push your changes**
 
