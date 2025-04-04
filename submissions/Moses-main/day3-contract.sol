@@ -16,6 +16,7 @@ contract PollStation {
         voteCount[_candidatesNames] = 0;
     }
 
+// 
     function getCandidateNames() public view returns (string[] memory)  {
         return candidateNames;
     }
