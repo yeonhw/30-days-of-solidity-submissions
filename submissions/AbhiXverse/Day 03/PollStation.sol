@@ -7,7 +7,7 @@ contract PollStation {
     // list of candidates 
     string[5] public CandidatesName = ["Abhi", "Ajax", "Rahul", "Modi", "Ashish"];
 
-    // stores the vote count for rach candidate 
+    // stores the vote count for each candidate 
     mapping (string => uint256) public voteCount;
 
     // tracks if the address has already voted 
