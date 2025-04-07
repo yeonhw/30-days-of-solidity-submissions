@@ -22,7 +22,6 @@ contract ClickCounter {
 
     // Function to decrement count by 1
     function decr() public {
-        require(count > 0,"counter can't be negative");
         count--;
     }
 
