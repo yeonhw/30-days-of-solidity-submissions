@@ -8,19 +8,14 @@ contract SaveMyName {
     string public name;
     bool public isActive = false;
 
-    // enter the user name during deployment
     constructor(string memory _name) public {
         name = _name;
     }
 
-    // change the user status
-    function changeStatus() external view  returns (bool){
-        if(isActive == false ){
-            return false;
-        } else {
-            return true;
-        }
-    }
+function changeStatus() external returns (bool) {
+    isActive = !isActive;
+    return isActive;
+}
 
     function get_status() public view returns(bool) {
         isActive;
@@ -30,7 +25,7 @@ contract SaveMyName {
         return name;
     }
 
-    function set_name(string memory _new_name) public {
-        name = _new_name;
+    function set_name(string memory _newName) public {
+        name = _newName;
     }
 }
