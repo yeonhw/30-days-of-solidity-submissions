@@ -80,12 +80,6 @@ You can keep submitting daily by repeating these steps for each new challenge.
 
 ---
 
-## 📢 Note for Returning Participants
-
-Each day will have its own folder. Make sure you're submitting to the correct one!
-
----
-
 ## 🫶 Thank you for participating!
 
 We’re stoked to see what you build — keep showing up and let Solidity become second nature 💚
