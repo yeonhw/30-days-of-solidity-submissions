@@ -49,6 +49,7 @@
 3. **激活插件**：
    - 点击 "Activate" 按钮
    - 左侧会出现 Git 图标
+<img width="70" alt="截屏2025-06-01 23 13 11" src="https://github.com/user-attachments/assets/8d908bb5-f633-46f0-87e9-be8d9125671e" />
 
 ### 1.3 验证插件安装
 激活成功后，左侧应该出现：
