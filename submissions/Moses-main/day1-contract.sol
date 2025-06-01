@@ -1,28 +1,20 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.2 <0.9.0;
+pragma solidity ^0.8.0;
 
-contract ClickCounter {
+// CHALLENGE
+// Let's build a simple counter! Imagine a digital clicker. You'll create a 'function' named `click()`. 
+// Each time someone calls this function, a number stored in the contract (a 'variable') will increase by one. 
+// You'll learn how to declare a variable to hold a number (an `uint`) and create functions to change it (increment/decrement). 
+// This is the very first step in making interactive smart contracts, showing how to store and modify data.
 
-    // 📖 Description:
-    // A simple counter contract to learn variable declaration, 
-    // function creation, and basic arithmetic.
-    //  Like a YouTube view counter, tracking how many times a button is clicked.
 
-    uint256 public count;
+contract clickCounter {
+    
+    // track the number of clicks done by a user.
+    uint8 public clickCount = 0;
 
-    // Function to get the current count
-    function get() public view returns (uint256)  {
-        return count;
-    }
-
-    // Funtion to increment count by 1
-    function incr() public {
-        count++;
-    }
-
-    // Function to decrement count by 1
-    function decr() public {
-        count--;
+    function click() public {
+        clickCount++;
     }
 
 
